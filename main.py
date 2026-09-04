@@ -61,7 +61,10 @@ app = FastAPI(
 # real Netlify URL before deploying (see the deployment guide, Phase 4.3).
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # Hackathon ke liye * OK hai
+    allow_origins=[
+        "https://harvestguard-ai.netlify.app",  # live Netlify site
+        "http://localhost:5173",                 # local frontend dev server
+    ],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
