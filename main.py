@@ -6,7 +6,6 @@ from apscheduler.schedulers.background import BackgroundScheduler
 from api.routes import router
 from api.auth_routes import router as auth_router
 from db import init_db
-from rag.pipeline import build_vector_store
 from scraper.amis_scraper import run_daily_scrape
 
 # BackgroundScheduler runs jobs in their own separate thread(s), NOT on
@@ -24,8 +23,10 @@ async def lifespan(app: FastAPI):
     print("[STARTUP] Initializing database...")
     init_db()
 
-    print("[STARTUP] Building RAG vector store...")
-    build_vector_store()
+    # RAG vector store ab eagerly nahi banta — search_knowledge() ise pehli
+    # baar use hone par khud lazily bana leta hai (rag/pipeline.py mein
+    # `if vector_store is None: build_vector_store()`). Isse uvicorn turant
+    # port khol deta hai instead of startup pe rukna.
     print("[READY] HarvestGuard backend ready!")
 
     # Scraper ko roz raat 11 PM (23:00, server ka local time) pe chalao.
