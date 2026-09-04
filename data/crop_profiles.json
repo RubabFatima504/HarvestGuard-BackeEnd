@@ -1,0 +1,231 @@
+[
+    {
+        "crop_id": "potato",
+        "crop_name": "Potato",
+        "crop_category": "vegetable",
+        "variety": "Desiree/Cardinal (common Punjab varieties) - storage temperature data from Lady Rosetta variety study",
+        "origin_region": "Okara, Sahiwal, Kasur, Sialkot, Punjab (major producing districts)",
+        "harvest_season": "October-December (autumn crop) and February-April (spring crop)",
+        "ideal_temp_celsius": 5.0,
+        "ideal_humidity_pct": 90.0,
+        "critical_temp_celsius": 25.0,
+        "decay_constant_k": 0.012,
+        "temp_sensitivity": 0.025,
+        "_temp_sensitivity_deprecated": "This linear-additive field is no longer used by spoilage_curve.py as of the exponential-formula fix - kept only for reference/history. Use temp_halving_celsius instead.",
+        "temp_halving_celsius": 34.2,
+        "_temp_halving_note": "Derived from Lady Rosetta study data: 126 days shelf life at 5C vs 84 days (dormancy break) at 25C = 1.5x decay-rate increase over 20C, giving a 34.2C halving temperature via k_new = k_base * 2^(deltaT/halving_temp). This is a gentle slope, consistent with potato tolerating ambient heat far better than fruit crops.",
+        "value_per_kg_premium": null,
+        "value_per_kg_acceptable": null,
+        "value_per_kg_distressed": null,
+        "_value_note": "PLACEHOLDER - needs AMIS Punjab price data (Dataset 3), commodity likely listed as 'Potato'.",
+        "_decay_note": "decay_constant_k and temp_sensitivity are estimated from the reported day-thresholds (126 days at 5C vs dormancy break at 84 days at 25C), not literal paper values - potato decays far slower than mango/rice-adjacent produce since it is a dormant tuber, hence the much smaller k than mango crops.",
+        "source_citation": "Abbasi, K.S., Masud, T., Qayyum, A., Khan, S.U., Abbas, S., Jenks, M.A. Storage stability of potato variety Lady Rosetta under comparative temperature regimes. (Pakistani-authored study, PMAS-Arid Agriculture University Rawalpindi). + Khan, M.A. et al., 'Quality Deterioration of Postharvest Fruits and Vegetables in Developing Country Pakistan: A Mini Overview' (2021) - citing Swat district KPK loss survey.",
+        "storage_profiles": [
+            {
+                "storage_type": "cold_storage",
+                "temp_range_celsius": "5",
+                "shelf_life_days_min": 100,
+                "shelf_life_days_max": 126,
+                "humidity_range_pct": "90-95",
+                "decay_rate_per_day_pct": 0.4,
+                "notes": "5C maintained tuber dormancy up to 126 days - longest storage life of tested temperatures. Trade-off: associated with increased sugar accumulation and poorer chip/processing color (not a concern for fresh-market sale, relevant mainly for processing-bound potatoes)."
+            },
+            {
+                "storage_type": "moderate_storage",
+                "temp_range_celsius": "15",
+                "shelf_life_days_min": 80,
+                "shelf_life_days_max": 100,
+                "humidity_range_pct": "85-90",
+                "decay_rate_per_day_pct": 0.6,
+                "notes": "15C retained lower sugar content and better quality/chip color than 5C storage, but with increased enzymatic browning-related activity (polyphenol oxidase, peroxidase) over time. Good middle-ground for fresh-market (non-processing) potatoes."
+            },
+            {
+                "storage_type": "ambient",
+                "temp_range_celsius": "25",
+                "shelf_life_days_min": 60,
+                "shelf_life_days_max": 84,
+                "humidity_range_pct": "60-80",
+                "decay_rate_per_day_pct": 1.2,
+                "notes": "Storage life significantly reduced at 25C - dormancy break occurred by day 84, followed by starch degradation and sprouting. Still far longer than fruit crops even at ambient, since potato is a dormant tuber rather than a ripening fruit."
+            }
+        ],
+        "_loss_stats": "Pakistan-specific: 10.08% postharvest potato loss reported in storage, and 3.98% in transport, in Swat district, KPK, Pakistan (source above). Lack of storage facilities and inadequate packaging flagged as main causes."
+    },
+    {
+        "crop_id": "tomato",
+        "crop_name": "Tomato",
+        "crop_category": "vegetable",
+        "variety": "Common Pakistani market varieties (not variety-specific in source study)",
+        "origin_region": "Punjab and Sindh (major production + import from India/China in off-season)",
+        "harvest_season": "Year-round with peaks March-May and September-November",
+        "ideal_temp_celsius": 12.5,
+        "ideal_humidity_pct": 80.0,
+        "critical_temp_celsius": 30.0,
+        "decay_constant_k": 0.11,
+        "temp_sensitivity": 0.06,
+        "_temp_sensitivity_deprecated": "This linear-additive field is no longer used by spoilage_curve.py as of the exponential-formula fix - kept only for reference/history. Use temp_halving_celsius instead.",
+        "temp_halving_celsius": 10.0,
+        "_temp_halving_note": "No multi-temperature Pakistani tomato study was found in our research (the Lahore packing-material study only tested one ambient temperature). Uses the standard horticultural Q10=2 convention (decay rate roughly doubles per 10C) as a reasonable literature-backed default - lower confidence than the derived values for mango/potato/rice, flagged honestly rather than presented as equally research-derived.",
+        "value_per_kg_premium": null,
+        "value_per_kg_acceptable": null,
+        "value_per_kg_distressed": null,
+        "_value_note": "PLACEHOLDER - needs AMIS Punjab price data (Dataset 3), commodity likely listed as 'Tomato'.",
+        "_decay_note": "decay_constant_k estimated from the 7-10 day ambient shelf-life range reported below - tomato decays faster than potato (dormant tuber) but slower than mango at equivalent ambient heat, consistent with it being a climacteric fruit with moderate respiration rate.",
+        "source_citation": "Saeed, A.F.U.H., Khan, S.N., Sarwar, A., Tahira, J.J. (2010). Effect of packing materials on storage of tomato. Mycopath 8(2): 85-89. Institute of Plant Pathology, University of the Punjab, Lahore. + Firdous, N. (2021). Post-harvest losses in different fresh produces and vegetables in Pakistan with particular focus on tomatoes. Journal of Horticulture and Postharvest Research 4(1): 71-86.",
+        "storage_profiles": [
+            {
+                "storage_type": "ambient_packed",
+                "temp_range_celsius": "20",
+                "shelf_life_days_min": 10,
+                "shelf_life_days_max": 12,
+                "humidity_range_pct": "not specified",
+                "decay_rate_per_day_pct": 8.0,
+                "notes": "Lahore study (room temp, 20C): corrugated cardboard box packing gave the best result of the three tested materials (wooden crate, cardboard box, nylon mesh bag) - 10 days shelf life before mechanical/fungal damage became significant. Open containers and mesh bags showed accelerated decay due to faster fungal sporulation."
+            },
+            {
+                "storage_type": "ambient_unpacked",
+                "temp_range_celsius": "20-25",
+                "shelf_life_days_min": 7,
+                "shelf_life_days_max": 7,
+                "humidity_range_pct": "70-90",
+                "decay_rate_per_day_pct": 14.0,
+                "notes": "Untreated tomato kept in ambient conditions without proper packaging (e.g. loose in gunny bag) lasts only about 7 days before unacceptable decay/weight loss - this is the realistic baseline for most informal Pakistani market handling."
+            }
+        ],
+        "_loss_stats": "Pakistan-specific: up to 30% shipment losses reported due to improper packing material and physical damage. Distance-based losses: 7-9% for farm-to-market distances under 50km, rising to 19-27% for distances over 800km. General Pakistani produce context: 30-50% postharvest losses in developing countries (vs <15% in developed countries), attributed heavily to lack of cold chain due to energy/infrastructure constraints (Firdous, 2021)."
+    },
+    {
+        "crop_id": "mango_chaunsa",
+        "crop_name": "Chaunsa Mango",
+        "crop_category": "fruit",
+        "variety": "Samar Bahisht Chaunsa (primary) / Sufaid Chaunsa (secondary variant - see storage_profiles)",
+        "origin_region": "Punjab, Pakistan (Lodhran belt)",
+        "harvest_season": "July-September",
+        "ideal_temp_celsius": 12.5,
+        "ideal_humidity_pct": 87.5,
+        "critical_temp_celsius": 32.0,
+        "decay_constant_k": 0.13,
+        "temp_sensitivity": 0.065,
+        "_temp_sensitivity_deprecated": "This linear-additive field is no longer used by spoilage_curve.py as of the exponential-formula fix - kept only for reference/history. Use temp_halving_celsius instead.",
+        "temp_halving_celsius": 9.4,
+        "_temp_halving_note": "No multi-temperature study exists specifically for Chaunsa (the MAP paper only tested 13C, the Turkish journal paper only tested 11C). Derived instead from the Fajri mango paper (same genus, only multi-temperature Pakistani mango data available) as a cross-variety proxy: ~21 days at 11C vs ~4.5 days at 32C ambient = 4.67x decay-rate increase over 21C, giving a 9.4C halving temperature. This steep (fast-doubling) slope matches mango's known heat sensitivity.",
+        "value_per_kg_premium": null,
+        "value_per_kg_acceptable": null,
+        "value_per_kg_distressed": null,
+        "_value_note": "PLACEHOLDER - needs AMIS Punjab price data (Dataset 3). AMIS lists Chaunsa generically (does not distinguish Samar Bahisht vs Sufaid), so one price series covers this whole crop_id.",
+        "_merge_note": "This entry merges two mango varieties (Samar Bahisht Chaunsa and Sufaid Chaunsa) into one crop_id, since AMIS Punjab market data does not distinguish between them. Samar Bahisht is treated as the primary/dominant reference variety; Sufaid Chaunsa's real research data is preserved below as an additional storage_profile rather than being dropped.",
+        "source_citation": "Ali, Z., Malik, A.U., Khan, A.S., Amin, M., Rehman, A. (2019). Effect of modified atmosphere packaging on the postharvest life and quality of mango cv. Samar Bahisht Chaunsa stored at chilling temperature. Pak. J. Agri. Sci. 56(4): 847-856. + Malik, O.H., Malik, A.U., Khalid, M.S., Amin, M., Khalid, S., Umar, M. (2016). Effect of Modified Atmosphere Packaging on Postharvest Quality of Mango cvs. Sindhri and Sufaid Chaunsa During Storage. Turkish J. Agri. Food Sci. Tech. 4(12): 1104-1111.",
+        "storage_profiles": [
+            {
+                "storage_type": "cold_storage",
+                "temp_range_celsius": "12-14",
+                "shelf_life_days_min": 14,
+                "shelf_life_days_max": 21,
+                "humidity_range_pct": "85-90",
+                "decay_rate_per_day_pct": 3.9,
+                "notes": "[Samar Bahisht Chaunsa] Best quality at 14 days storage in Biofresh MAP bag (92% marketable fruit). Beyond 21 days quality drops sharply. Ripening at 32C recommended over 24C for better peel colour."
+            },
+            {
+                "storage_type": "cold_storage_extended",
+                "temp_range_celsius": "12-14",
+                "shelf_life_days_min": 21,
+                "shelf_life_days_max": 35,
+                "humidity_range_pct": "85-90",
+                "decay_rate_per_day_pct": 3.9,
+                "notes": "[Samar Bahisht Chaunsa] After 21 days, marketable fruit drops to 38% (day 21), 11% (day 28-35). Not recommended for long shipments."
+            },
+            {
+                "storage_type": "cold_storage_variant_sufaid",
+                "temp_range_celsius": "10-12",
+                "shelf_life_days_min": 14,
+                "shelf_life_days_max": 35,
+                "humidity_range_pct": "80-85",
+                "decay_rate_per_day_pct": 2.27,
+                "notes": "[Sufaid Chaunsa variant, at 11C] Marketable fruit: 90.5% at 14 days, 83.3% at 21 days, 66.7% at 28 days, 42.9% at 35 days. Sufaid Chaunsa has higher disease incidence than Sindhri - needs careful disease management. Kept separately since temp/RH conditions and decay rate differ from Samar Bahisht Chaunsa above."
+            }
+        ]
+    },
+    {
+        "crop_id": "mango_sindhri",
+        "crop_name": "Sindhri Mango",
+        "crop_category": "fruit",
+        "variety": "Sindhri",
+        "origin_region": "Sindh, Pakistan",
+        "harvest_season": "June-August",
+        "ideal_temp_celsius": 11.0,
+        "ideal_humidity_pct": 82.5,
+        "critical_temp_celsius": 33.0,
+        "decay_constant_k": 0.10,
+        "temp_sensitivity": 0.06,
+        "_temp_sensitivity_deprecated": "This linear-additive field is no longer used by spoilage_curve.py as of the exponential-formula fix - kept only for reference/history. Use temp_halving_celsius instead.",
+        "temp_halving_celsius": 9.4,
+        "_temp_halving_note": "Same cross-variety derivation as mango_chaunsa (from the Fajri paper's ambient-vs-cold comparison, the only multi-temperature Pakistani mango data available) - Sindhri has no reason to differ meaningfully from Chaunsa in raw heat sensitivity (both are mango, same genus/physiology), even though Sindhri shows better disease resistance and a more predictable decline curve overall.",
+        "value_per_kg_premium": 120.0,
+        "value_per_kg_acceptable": 70.0,
+        "value_per_kg_distressed": 25.0,
+        "_value_note": "Price values carried over from original sample data - verify against AMIS",
+        "source_citation": "Malik, O.H., Malik, A.U., Khalid, M.S., Amin, M., Khalid, S., Umar, M. (2016). Effect of Modified Atmosphere Packaging on Postharvest Quality of Mango cvs. Sindhri and Sufaid Chaunsa During Storage. Turkish J. Agri. Food Sci. Tech. 4(12): 1104-1111.",
+        "storage_profiles": [
+            {
+                "storage_type": "cold_storage",
+                "temp_range_celsius": "10-12",
+                "shelf_life_days_min": 14,
+                "shelf_life_days_max": 28,
+                "humidity_range_pct": "80-85",
+                "decay_rate_per_day_pct": 1.36,
+                "notes": "Marketable fruit: 78.6% at 14 days, 71.4% at 21 days, 59.5% at 28 days. Normal cold storage max ~21 days per literature cited in paper. Sindhri showed better storage potential than Sufaid Chaunsa with lower disease incidence."
+            }
+        ]
+    },
+    {
+        "crop_id": "rice_basmati",
+        "crop_name": "Basmati Rice (Paddy)",
+        "crop_category": "grain",
+        "variety": "Super Basmati",
+        "origin_region": "Punjab, Pakistan",
+        "harvest_season": "October-November",
+        "ideal_temp_celsius": 20.0,
+        "ideal_humidity_pct": 60.0,
+        "critical_temp_celsius": 35.0,
+        "decay_constant_k": 0.006,
+        "temp_sensitivity": 0.139,
+        "_temp_sensitivity_deprecated": "This linear-additive field is no longer used by spoilage_curve.py as of the exponential-formula fix - kept only for reference/history. Use temp_halving_celsius instead.",
+        "temp_halving_celsius": 5.0,
+        "_temp_halving_note": "Directly from IRRI's explicitly stated rule: shelf life halves for every 5C temperature increase. This is the highest-confidence temp_halving_celsius value in the whole dataset since it is stated directly by the source, not derived/estimated by us.",
+        "value_per_kg_premium": 220.0,
+        "value_per_kg_acceptable": 180.0,
+        "value_per_kg_distressed": 100.0,
+        "_value_note": "Price values carried over from original sample data - verify against AMIS",
+        "_temp_sensitivity_note": "Derived directly from IRRI rule: shelf life halves for every 5C temp increase, or every 1% moisture content increase. temp_sensitivity = ln(2)/5 = 0.139. This is the strongest real-data parameter in the whole dataset since IRRI states it explicitly (not estimated by us).",
+        "source_citation": "IRRI Rice Knowledge Bank - Postproduction: Storage (Moisture content for safe storage; Guidelines for safe storage). knowledgebank.irri.org/step-by-step-production/postharvest/storage",
+        "storage_profiles": [
+            {
+                "storage_type": "open_air",
+                "moisture_content_pct": "above_14",
+                "temp_range_celsius": "25-40",
+                "shelf_life_days_min": 14,
+                "shelf_life_days_max": 60,
+                "decay_rate_per_day_pct": 1.5,
+                "notes": "Storage period: 'weeks to a few months' per IRRI at this moisture level. Risks: molds, discolouration, respiration loss, insect damage, moisture adsorption. Grain moisture equilibrates with surrounding humid air in open storage (hygroscopic), which is why tropical/humid conditions are especially risky."
+            },
+            {
+                "storage_type": "covered_shed",
+                "moisture_content_pct": "13-14",
+                "temp_range_celsius": "20-35",
+                "shelf_life_days_min": 240,
+                "shelf_life_days_max": 365,
+                "decay_rate_per_day_pct": 0.15,
+                "notes": "IRRI: moisture at 13% or less is required for 8-12 months safe storage. Main risk at this level is insect damage (mold risk drops once below 14%)."
+            },
+            {
+                "storage_type": "hermetic_storage",
+                "moisture_content_pct": "below_12",
+                "temp_range_celsius": "15-30",
+                "shelf_life_days_min": 365,
+                "shelf_life_days_max": 730,
+                "decay_rate_per_day_pct": 0.05,
+                "notes": "IRRI: farmer's seed storage requires 12% or less moisture (loss of germination is the risk beyond this); for storage under 1 year, 9% or less MC is recommended. Airtight containers (IRRI Superbag, Cocoon) keep MC constant at the level it was sealed at, which is why hermetic storage extends life furthest. Bag storage: 40-80kg jute/woven plastic bags. Bulk storage: at farm or commercial collection houses."
+            }
+        ]
+    }
+]

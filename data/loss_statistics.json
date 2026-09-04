@@ -1,0 +1,134 @@
+[
+    {
+        "country": "Pakistan",
+        "crop": "Potatoes",
+        "year": 2021,
+        "loss_percentage": 10.08,
+        "supply_chain_stage": "storage",
+        "cause": "inadequate_storage_facilities_poor_packaging",
+        "quantity_lost_tonnes": 947520,
+        "source": "'Quality Deterioration of Postharvest Fruits and Vegetables in Developing Country Pakistan: A Mini Overview' (2021), citing a postharvest loss survey conducted in Swat district, Khyber Pakhtunkhwa.",
+        "notes": "Survey-measured figure specific to Swat district, KPK - not a national average, but the most direct Pakistan-specific potato storage loss figure found. Notably lower than mango's loss rate, consistent with potato_storage.md finding that potato (a dormant tuber) tolerates poor storage conditions far better than fruit crops. quantity_lost_tonnes is our own estimate (10.08% x ~9.4M tonnes, Pakistan's 2024-25 potato production per Dawn/PotatoPro reporting) - not an officially reported national tonnage figure, and actual national loss % may differ from the Swat-specific survey rate."
+    },
+    {
+        "country": "Pakistan",
+        "crop": "Potatoes",
+        "year": 2021,
+        "loss_percentage": 3.98,
+        "supply_chain_stage": "transport",
+        "cause": "inadequate_packaging_handling_damage",
+        "quantity_lost_tonnes": 374120,
+        "source": "'Quality Deterioration of Postharvest Fruits and Vegetables in Developing Country Pakistan: A Mini Overview' (2021), citing the same Swat district, KPK survey as above.",
+        "notes": "Same source/survey as the storage-stage entry above. Transport loss is meaningfully lower than storage loss for potato, unlike mango where transport is typically the dominant loss point (see pakistan_post_harvest_losses.md) - consistent with potato's storage-focused (not transport-heat-sensitive) risk profile."
+    },
+    {
+        "country": "Pakistan",
+        "crop": "Tomatoes",
+        "year": 2010,
+        "loss_percentage": 30.0,
+        "supply_chain_stage": "packing_and_transport",
+        "cause": "improper_packing_material_physical_damage",
+        "quantity_lost_tonnes": 239200,
+        "source": "Saeed, A.F.U.H., Khan, S.N., Sarwar, A., Tahira, J.J. (2010). 'Effect of packing materials on storage of tomato.' Mycopath 8(2): 85-89. University of the Punjab, Lahore.",
+        "notes": "Up to 30% shipment losses reported due to improper packing material and physical damage during handling - a preventable loss point independent of cold-chain access. quantity_lost_tonnes is our own estimate (30% x ~797,000 tonnes, Pakistan's 2024 tomato production per Selina Wamucii/FAO data) - not an officially reported tonnage figure."
+    },
+    {
+        "country": "Pakistan",
+        "crop": "Tomatoes",
+        "year": 2010,
+        "loss_percentage": 23.0,
+        "supply_chain_stage": "transport_distance_dependent",
+        "cause": "transport_distance_physical_damage",
+        "quantity_lost_tonnes": 183310,
+        "source": "Saeed, A.F.U.H., Khan, S.N., Sarwar, A., Tahira, J.J. (2010). Same Lahore study as above.",
+        "notes": "Distance-scaled finding, not a single fixed rate: 7-9% loss for farm-to-market distances under 50km, rising to 19-27% loss for distances over 800km. 23% (midpoint of the long-distance range) used here as a representative figure for the 'long haul' scenario specifically. Loss increases with distance in a way mango and rice data in this dataset do not explicitly quantify - useful for HarvestGuard's transport-distance risk weighting for tomato specifically."
+    },
+    {
+        "country": "Pakistan",
+        "crop": "Tomatoes",
+        "year": 2021,
+        "loss_percentage": 40.0,
+        "supply_chain_stage": "post_harvest_handling_general",
+        "cause": "lack_of_cold_chain_energy_infrastructure_constraints",
+        "quantity_lost_tonnes": 318800,
+        "source": "Firdous, N. (2021). 'Post-harvest losses in different fresh produces and vegetables in Pakistan with particular focus on tomatoes.' Journal of Horticulture and Postharvest Research, 4(1): 71-86.",
+        "notes": "Source states 30-50% postharvest losses for Pakistani produce broadly (tomatoes specifically highlighted), vs under 15% in developed countries. 40% used as midpoint. Attributed heavily to energy/infrastructure constraints limiting cold-chain availability, consistent with cold_chain_pakistan.md's 8% national cold storage coverage finding."
+    },
+    {
+        "country": "Pakistan",
+        "crop": "Mangoes",
+        "year": 2013,
+        "loss_percentage": 30.0,
+        "supply_chain_stage": "post_harvest_handling",
+        "cause": "improper_handling_heat_exposure",
+        "quantity_lost_tonnes": 690000,
+        "source": "Pakistan National Commission on Agriculture, cited in FAO document 'Post-harvest handling losses' (fao.org/4/j5778e/j5778e.htm)",
+        "notes": "Original source range is 20-40% loss for fruits and vegetables generally due to defects in post-harvest handling, transport, storage, and marketing. 30% used as midpoint. quantity_lost_tonnes is our own estimate (30% x ~2.3M tonnes annual Pakistan mango production) - not an officially reported tonnage figure."
+    },
+    {
+        "country": "Pakistan",
+        "crop": "Mangoes",
+        "year": 2014,
+        "loss_percentage": 35.0,
+        "supply_chain_stage": "farm_to_market_general",
+        "cause": "combined_handling_storage_transport",
+        "quantity_lost_tonnes": 805000,
+        "source": "Value Addition: A Tool to Minimize the Post-harvest Losses in Horticultural Crops (gjournals.org, 2014), citing PHDEC and Pakistan Economic Survey",
+        "notes": "Source states Pakistan's fruit and vegetable sector suffers postharvest losses of about 30-40%; 35% used as midpoint. Attributed to tropical conditions (high ambient temperature/humidity) and pest/disease incidence."
+    },
+    {
+        "country": "Pakistan",
+        "crop": "Mangoes",
+        "year": 2026,
+        "loss_percentage": 35.0,
+        "supply_chain_stage": "farm_to_mandi_transport",
+        "cause": "lack_of_cold_chain_open_truck_transport",
+        "quantity_lost_tonnes": 805000,
+        "source": "Izhar Foster, 'Cold Storage Demand in Pakistan: 2026 Market Outlook' (izharfoster.com), citing Ministry of National Food Security & PHDEC",
+        "notes": "States Pakistan loses 30-40% of fruit/vegetable harvest between farm and nearest mandi, specifically naming mangoes from Multan and Mirpurkhas as an example. Notes fruit traveling in open trucks through May-July heat arrives already discounted in value."
+    },
+    {
+        "country": "Pakistan",
+        "crop": "Rice",
+        "year": 2010,
+        "loss_percentage": 25.0,
+        "supply_chain_stage": "post_harvest_handling_overall",
+        "cause": "traditional_harvesting_methods_outdated_technology",
+        "quantity_lost_tonnes": 1625000,
+        "source": "Trade Development Authority of Pakistan (TDAP), 'Report on Post Harvest Losses of Rice' (2010)",
+        "notes": "TDAP's own report states Pakistan rice post-harvest losses can be 20-30% (vs 14-16% in other developing countries) due to traditional cultivation/harvesting methods. 25% used as midpoint. quantity_lost_tonnes estimated against Pakistan's ~6.5M tonne average annual rice production (2006-09 REAP data cited in same report)."
+    },
+    {
+        "country": "Pakistan",
+        "crop": "Rice",
+        "year": 2010,
+        "loss_percentage": 5.0,
+        "supply_chain_stage": "storage",
+        "cause": "moisture_pest_damage_inadequate_storage_capacity",
+        "quantity_lost_tonnes": 325000,
+        "source": "Trade Development Authority of Pakistan (TDAP), citing FAO 1994 six-country Asian post-harvest loss study",
+        "notes": "FAO 1994 study across Sri Lanka, Thailand, Myanmar, Indonesia, Bangladesh, Nepal found storage losses averaging ~4.5% of total post-harvest loss (range 0.9-7.5% by country). TDAP explicitly states 'In Pakistan it is also observed that post-harvest losses are mainly because of inappropriate storage capacity.' 5% used as representative figure."
+    },
+    {
+        "country": "Pakistan",
+        "crop": "Rice",
+        "year": 2019,
+        "loss_percentage": 30.0,
+        "supply_chain_stage": "milling_and_storage",
+        "cause": "quantitative_and_qualitative_losses_at_mill",
+        "quantity_lost_tonnes": 1950000,
+        "source": "WWF-Pakistan, 'Post-Harvest Food Losses in Rice and Tomato Supply Chains' Policy Brief, based on field survey in Peshawar, Islamabad, Lahore (March-August 2019)",
+        "notes": "Primary field survey (not secondary literature) found quantitative losses as high as 30% in mills, with qualitative losses (moisture content loss) of 3-6% specifically during storage. This is Pakistan's most recent, directly-measured rice loss data source (vs older FAO 1994 study)."
+    },
+    {
+        "country": "Pakistan",
+        "crop": "Rice",
+        "year": 2010,
+        "loss_percentage": 3.0,
+        "supply_chain_stage": "drying",
+        "cause": "improper_sun_drying_uncontrolled_moisture",
+        "quantity_lost_tonnes": 195000,
+        "source": "Trade Development Authority of Pakistan (TDAP), citing FAO Rice Post-harvest Compendium",
+        "notes": "Source states losses due to bad drying practices range 1-5% (mainly affecting quality, not just quantity). 3% used as midpoint. 70-90% of Pakistan's farm-produced paddy is still sun-dried rather than mechanically dried, per same source."
+    }
+]

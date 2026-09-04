@@ -1,0 +1,1103 @@
+[
+  {
+    "market_id": "karachi_sabzi",
+    "market_name": "Karachi New Sabzi Mandi (Super Highway)",
+    "city": "Karachi",
+    "province": "Sindh",
+    "latitude": 25.0125,
+    "longitude": 67.0825,
+    "market_type": "wholesale",
+    "primary_crops": [
+      "mango",
+      "banana",
+      "vegetables",
+      "citrus"
+    ],
+    "is_premium": true,
+    "cold_storage_available": true
+  },
+  {
+    "market_id": "hyderabad_fruit",
+    "market_name": "Hyderabad Fruit & Vegetable Mandi",
+    "city": "Hyderabad",
+    "province": "Sindh",
+    "latitude": 25.3792,
+    "longitude": 68.3683,
+    "market_type": "wholesale",
+    "primary_crops": [
+      "mango",
+      "dates",
+      "vegetables"
+    ],
+    "is_premium": false,
+    "cold_storage_available": false
+  },
+  {
+    "market_id": "mirpurkhas_mandi",
+    "market_name": "Mirpurkhas Fruit Mandi",
+    "city": "Mirpurkhas",
+    "province": "Sindh",
+    "latitude": 25.5276,
+    "longitude": 69.0159,
+    "market_type": "wholesale",
+    "primary_crops": [
+      "mango",
+      "banana"
+    ],
+    "is_premium": false,
+    "cold_storage_available": false
+  },
+  {
+    "market_id": "sukkur_mandi",
+    "market_name": "Sukkur Agricultural Market",
+    "city": "Sukkur",
+    "province": "Sindh",
+    "latitude": 27.7052,
+    "longitude": 68.8574,
+    "market_type": "wholesale",
+    "primary_crops": [
+      "dates",
+      "mango",
+      "rice"
+    ],
+    "is_premium": false,
+    "cold_storage_available": false
+  },
+  {
+    "market_id": "lahore_badami",
+    "market_name": "Lahore Badami Bagh Mandi",
+    "city": "Lahore",
+    "province": "Punjab",
+    "latitude": 31.5801,
+    "longitude": 74.3176,
+    "market_type": "wholesale",
+    "primary_crops": [
+      "mango",
+      "vegetables",
+      "citrus",
+      "rice"
+    ],
+    "is_premium": true,
+    "cold_storage_available": true
+  },
+  {
+    "market_id": "multan_fruit",
+    "market_name": "Multan Fruit Mandi",
+    "city": "Multan",
+    "province": "Punjab",
+    "latitude": 30.1984,
+    "longitude": 71.4687,
+    "market_type": "wholesale",
+    "primary_crops": [
+      "mango",
+      "citrus",
+      "guava"
+    ],
+    "is_premium": false,
+    "cold_storage_available": true
+  },
+  {
+    "market_id": "faisalabad_mandi",
+    "market_name": "Faisalabad Grain & Fruit Market",
+    "city": "Faisalabad",
+    "province": "Punjab",
+    "latitude": 31.4504,
+    "longitude": 73.135,
+    "market_type": "wholesale",
+    "primary_crops": [
+      "rice",
+      "wheat",
+      "vegetables"
+    ],
+    "is_premium": false,
+    "cold_storage_available": true
+  },
+  {
+    "market_id": "rahim_yar_khan_mandi",
+    "market_name": "Rahim Yar Khan Mandi",
+    "city": "Rahim Yar Khan",
+    "province": "Punjab",
+    "latitude": 28.4202,
+    "longitude": 70.2952,
+    "market_type": "wholesale",
+    "primary_crops": [
+      "mango",
+      "cotton",
+      "rice"
+    ],
+    "is_premium": false,
+    "cold_storage_available": false
+  },
+  {
+    "market_id": "bahawalpur_mandi",
+    "market_name": "Bahawalpur Sabzi Mandi",
+    "city": "Bahawalpur",
+    "province": "Punjab",
+    "latitude": 29.3956,
+    "longitude": 71.6836,
+    "market_type": "wholesale",
+    "primary_crops": [
+      "mango",
+      "dates",
+      "vegetables"
+    ],
+    "is_premium": false,
+    "cold_storage_available": false
+  },
+  {
+    "market_id": "sahiwal_mandi",
+    "market_name": "Sahiwal Sabzi Mandi",
+    "city": "Sahiwal",
+    "province": "Punjab",
+    "latitude": 30.6757,
+    "longitude": 73.103,
+    "market_type": "wholesale",
+    "primary_crops": [
+      "vegetables",
+      "rice",
+      "wheat"
+    ],
+    "is_premium": false,
+    "cold_storage_available": false
+  },
+  {
+    "market_id": "rawalpindi_mandi",
+    "market_name": "Rawalpindi Fruit & Vegetable Market",
+    "city": "Rawalpindi",
+    "province": "Punjab",
+    "latitude": 33.5981,
+    "longitude": 73.0551,
+    "market_type": "wholesale",
+    "primary_crops": [
+      "mango",
+      "apple",
+      "vegetables"
+    ],
+    "is_premium": true,
+    "cold_storage_available": true
+  },
+  {
+    "market_id": "sargodha_mandi",
+    "market_name": "Sargodha Fruit Market",
+    "city": "Sargodha",
+    "province": "Punjab",
+    "latitude": 32.0836,
+    "longitude": 72.6711,
+    "market_type": "wholesale",
+    "primary_crops": [
+      "citrus",
+      "mango",
+      "vegetables"
+    ],
+    "is_premium": false,
+    "cold_storage_available": true
+  },
+  {
+    "market_id": "nawabshah_mandi",
+    "market_name": "Nawabshah Agricultural Market",
+    "city": "Shaheed Benazirabad",
+    "province": "Sindh",
+    "latitude": 26.2483,
+    "longitude": 68.4098,
+    "market_type": "wholesale",
+    "primary_crops": [
+      "mango",
+      "banana",
+      "rice"
+    ],
+    "is_premium": false,
+    "cold_storage_available": false
+  },
+  {
+    "market_id": "tando_adam_mandi",
+    "market_name": "Tando Adam Grain Market",
+    "city": "Tando Adam",
+    "province": "Sindh",
+    "latitude": 25.7681,
+    "longitude": 68.6619,
+    "market_type": "wholesale",
+    "primary_crops": [
+      "rice",
+      "wheat",
+      "sugarcane"
+    ],
+    "is_premium": false,
+    "cold_storage_available": false
+  },
+  {
+    "market_id": "islamabad_fruit",
+    "market_name": "Islamabad Fruit & Vegetable Market (I-11)",
+    "city": "Islamabad",
+    "province": "ICT",
+    "latitude": 33.66,
+    "longitude": 72.9998,
+    "market_type": "wholesale",
+    "primary_crops": [
+      "mango",
+      "apple",
+      "vegetables",
+      "citrus"
+    ],
+    "is_premium": true,
+    "cold_storage_available": true
+  },
+  {
+    "market_id": "vehari_mandi",
+    "market_name": "Vehari Fruit Mandi",
+    "city": "Vehari",
+    "province": "Punjab",
+    "latitude": 30.0419,
+    "longitude": 72.3528,
+    "market_type": "wholesale",
+    "primary_crops": [
+      "mango",
+      "cotton",
+      "vegetables"
+    ],
+    "is_premium": false,
+    "cold_storage_available": false
+  },
+  {
+    "market_id": "lodhran_mandi",
+    "market_name": "Lodhran Mandi",
+    "city": "Lodhran",
+    "province": "Punjab",
+    "latitude": 29.5333,
+    "longitude": 71.6333,
+    "market_type": "wholesale",
+    "primary_crops": [
+      "mango",
+      "cotton",
+      "sugarcane"
+    ],
+    "is_premium": false,
+    "cold_storage_available": false
+  },
+  {
+    "market_id": "dunyapur_mandi",
+    "market_name": "DunyaPur Mandi",
+    "city": "DunyaPur",
+    "province": "Punjab",
+    "latitude": 29.7972,
+    "longitude": 71.7367,
+    "market_type": "wholesale",
+    "primary_crops": [
+      "potato",
+      "vegetables",
+      "sugarcane"
+    ],
+    "is_premium": false,
+    "cold_storage_available": false
+  },
+  {
+    "market_id": "sialkot_mandi",
+    "market_name": "Sialkot Mandi",
+    "city": "Sialkot",
+    "province": "Punjab",
+    "latitude": 32.4925,
+    "longitude": 74.5311,
+    "market_type": "wholesale",
+    "primary_crops": [
+      "mango",
+      "rice",
+      "vegetables"
+    ],
+    "is_premium": true,
+    "cold_storage_available": false
+  },
+  {
+    "market_id": "jhelum_mandi",
+    "market_name": "Jhelum Mandi",
+    "city": "Jhelum",
+    "province": "Punjab",
+    "latitude": 32.9425,
+    "longitude": 73.7256,
+    "market_type": "wholesale",
+    "primary_crops": [
+      "mango",
+      "rice",
+      "wheat"
+    ],
+    "is_premium": false,
+    "cold_storage_available": false
+  },
+  {
+    "market_id": "dgkhan_mandi",
+    "market_name": "D.G. Khan Mandi",
+    "city": "Dera Ghazi Khan",
+    "province": "Punjab",
+    "latitude": 30.0459,
+    "longitude": 70.6403,
+    "market_type": "wholesale",
+    "primary_crops": [
+      "mango",
+      "wheat",
+      "cotton"
+    ],
+    "is_premium": false,
+    "cold_storage_available": false
+  },
+  {
+    "market_id": "jauharabad_mandi",
+    "market_name": "Jauharabad Mandi",
+    "city": "Jauharabad",
+    "province": "Punjab",
+    "latitude": 32.2919,
+    "longitude": 72.2736,
+    "market_type": "wholesale",
+    "primary_crops": [
+      "mango",
+      "rice",
+      "wheat"
+    ],
+    "is_premium": false,
+    "cold_storage_available": false
+  },
+  {
+    "market_id": "talagang_mandi",
+    "market_name": "Talagang Mandi",
+    "city": "Talagang",
+    "province": "Punjab",
+    "latitude": 32.9278,
+    "longitude": 72.4111,
+    "market_type": "wholesale",
+    "primary_crops": [
+      "mango",
+      "rice",
+      "wheat"
+    ],
+    "is_premium": false,
+    "cold_storage_available": false
+  },
+  {
+    "market_id": "gujranwala_mandi",
+    "market_name": "Gujranwala Mandi",
+    "city": "Gujranwala",
+    "province": "Punjab",
+    "latitude": 32.1525,
+    "longitude": 74.1934,
+    "market_type": "wholesale",
+    "primary_crops": [
+      "mango_chaunsa"
+    ],
+    "is_premium": false,
+    "cold_storage_available": false,
+    "_auto_discovered": true,
+    "_discovered_date": "2026-08-31",
+    "_note": "Auto-added by scraper from live AMIS data. Verify coordinates and enrich cold_storage_available / is_premium / primary_crops manually when convenient - safe to use for price/distance decisions as-is."
+  },
+  {
+    "market_id": "okara_mandi",
+    "market_name": "Okara Mandi",
+    "city": "Okara",
+    "province": "Punjab",
+    "latitude": 30.8091,
+    "longitude": 73.4493,
+    "market_type": "wholesale",
+    "primary_crops": [
+      "mango_chaunsa"
+    ],
+    "is_premium": false,
+    "cold_storage_available": false,
+    "_auto_discovered": true,
+    "_discovered_date": "2026-08-31",
+    "_note": "Auto-added by scraper from live AMIS data. Verify coordinates and enrich cold_storage_available / is_premium / primary_crops manually when convenient - safe to use for price/distance decisions as-is."
+  },
+  {
+    "market_id": "layyah_mandi",
+    "market_name": "Layyah Mandi",
+    "city": "Layyah",
+    "province": "Punjab",
+    "latitude": 30.9681,
+    "longitude": 70.9434,
+    "market_type": "wholesale",
+    "primary_crops": [
+      "mango_chaunsa"
+    ],
+    "is_premium": false,
+    "cold_storage_available": false,
+    "_auto_discovered": true,
+    "_discovered_date": "2026-08-31",
+    "_note": "Auto-added by scraper from live AMIS data. Verify coordinates and enrich cold_storage_available / is_premium / primary_crops manually when convenient - safe to use for price/distance decisions as-is."
+  },
+  {
+    "market_id": "patoki_mandi",
+    "market_name": "Patoki Mandi",
+    "city": "Patoki",
+    "province": "Punjab",
+    "latitude": 32.4979,
+    "longitude": 74.177,
+    "market_type": "wholesale",
+    "primary_crops": [
+      "mango_chaunsa"
+    ],
+    "is_premium": false,
+    "cold_storage_available": false,
+    "_auto_discovered": true,
+    "_discovered_date": "2026-08-31",
+    "_note": "Auto-added by scraper from live AMIS data. Verify coordinates and enrich cold_storage_available / is_premium / primary_crops manually when convenient - safe to use for price/distance decisions as-is."
+  },
+  {
+    "market_id": "arifwala_mandi",
+    "market_name": "ArifWala Mandi",
+    "city": "ArifWala",
+    "province": "Punjab",
+    "latitude": 30.2945,
+    "longitude": 73.0589,
+    "market_type": "wholesale",
+    "primary_crops": [
+      "mango_chaunsa"
+    ],
+    "is_premium": false,
+    "cold_storage_available": false,
+    "_auto_discovered": true,
+    "_discovered_date": "2026-08-31",
+    "_note": "Auto-added by scraper from live AMIS data. Verify coordinates and enrich cold_storage_available / is_premium / primary_crops manually when convenient - safe to use for price/distance decisions as-is."
+  },
+  {
+    "market_id": "pakpattan_mandi",
+    "market_name": "PakPattan Mandi",
+    "city": "PakPattan",
+    "province": "Punjab",
+    "latitude": 30.355,
+    "longitude": 73.3951,
+    "market_type": "wholesale",
+    "primary_crops": [
+      "mango_chaunsa"
+    ],
+    "is_premium": false,
+    "cold_storage_available": false,
+    "_auto_discovered": true,
+    "_discovered_date": "2026-08-31",
+    "_note": "Auto-added by scraper from live AMIS data. Verify coordinates and enrich cold_storage_available / is_premium / primary_crops manually when convenient - safe to use for price/distance decisions as-is."
+  },
+  {
+    "market_id": "gujarkhan_mandi",
+    "market_name": "GujarKhan Mandi",
+    "city": "GujarKhan",
+    "province": "Punjab",
+    "latitude": 33.2138,
+    "longitude": 73.1584,
+    "market_type": "wholesale",
+    "primary_crops": [
+      "mango_chaunsa"
+    ],
+    "is_premium": false,
+    "cold_storage_available": false,
+    "_auto_discovered": true,
+    "_discovered_date": "2026-08-31",
+    "_note": "Auto-added by scraper from live AMIS data. Verify coordinates and enrich cold_storage_available / is_premium / primary_crops manually when convenient - safe to use for price/distance decisions as-is."
+  },
+  {
+    "market_id": "kamalia_mandi",
+    "market_name": "Kamalia Mandi",
+    "city": "Kamalia",
+    "province": "Punjab",
+    "latitude": 30.727,
+    "longitude": 72.645,
+    "market_type": "wholesale",
+    "primary_crops": [
+      "mango_chaunsa"
+    ],
+    "is_premium": false,
+    "cold_storage_available": false,
+    "_auto_discovered": true,
+    "_discovered_date": "2026-08-31",
+    "_note": "Auto-added by scraper from live AMIS data. Verify coordinates and enrich cold_storage_available / is_premium / primary_crops manually when convenient - safe to use for price/distance decisions as-is."
+  },
+  {
+    "market_id": "pirmahal_mandi",
+    "market_name": "PirMahal Mandi",
+    "city": "PirMahal",
+    "province": "Punjab",
+    "latitude": 30.7655,
+    "longitude": 72.4344,
+    "market_type": "wholesale",
+    "primary_crops": [
+      "mango_chaunsa"
+    ],
+    "is_premium": false,
+    "cold_storage_available": false,
+    "_auto_discovered": true,
+    "_discovered_date": "2026-08-31",
+    "_note": "Auto-added by scraper from live AMIS data. Verify coordinates and enrich cold_storage_available / is_premium / primary_crops manually when convenient - safe to use for price/distance decisions as-is."
+  },
+  {
+    "market_id": "jhang_mandi",
+    "market_name": "Jhang Mandi",
+    "city": "Jhang",
+    "province": "Punjab",
+    "latitude": 31.2729,
+    "longitude": 72.3103,
+    "market_type": "wholesale",
+    "primary_crops": [
+      "mango_chaunsa"
+    ],
+    "is_premium": false,
+    "cold_storage_available": false,
+    "_auto_discovered": true,
+    "_discovered_date": "2026-08-31",
+    "_note": "Auto-added by scraper from live AMIS data. Verify coordinates and enrich cold_storage_available / is_premium / primary_crops manually when convenient - safe to use for price/distance decisions as-is."
+  },
+  {
+    "market_id": "nankana_mandi",
+    "market_name": "Nankana Mandi",
+    "city": "Nankana",
+    "province": "Punjab",
+    "latitude": 31.4305,
+    "longitude": 73.8493,
+    "market_type": "wholesale",
+    "primary_crops": [
+      "mango_chaunsa"
+    ],
+    "is_premium": false,
+    "cold_storage_available": false,
+    "_auto_discovered": true,
+    "_discovered_date": "2026-08-31",
+    "_note": "Auto-added by scraper from live AMIS data. Verify coordinates and enrich cold_storage_available / is_premium / primary_crops manually when convenient - safe to use for price/distance decisions as-is."
+  },
+  {
+    "market_id": "tandlianwala_mandi",
+    "market_name": "Tandlianwala Mandi",
+    "city": "Tandlianwala",
+    "province": "Punjab",
+    "latitude": 31.0322,
+    "longitude": 73.133,
+    "market_type": "wholesale",
+    "primary_crops": [
+      "mango_chaunsa"
+    ],
+    "is_premium": false,
+    "cold_storage_available": false,
+    "_auto_discovered": true,
+    "_discovered_date": "2026-08-31",
+    "_note": "Auto-added by scraper from live AMIS data. Verify coordinates and enrich cold_storage_available / is_premium / primary_crops manually when convenient - safe to use for price/distance decisions as-is."
+  },
+  {
+    "market_id": "mamunkanjan_mandi",
+    "market_name": "Mamunkanjan Mandi",
+    "city": "Mamunkanjan",
+    "province": "Punjab",
+    "latitude": 30.813,
+    "longitude": 72.8093,
+    "market_type": "wholesale",
+    "primary_crops": [
+      "mango_chaunsa"
+    ],
+    "is_premium": false,
+    "cold_storage_available": false,
+    "_auto_discovered": true,
+    "_discovered_date": "2026-08-31",
+    "_note": "Auto-added by scraper from live AMIS data. Verify coordinates and enrich cold_storage_available / is_premium / primary_crops manually when convenient - safe to use for price/distance decisions as-is."
+  },
+  {
+    "market_id": "chiniot_mandi",
+    "market_name": "Chiniot Mandi",
+    "city": "Chiniot",
+    "province": "Punjab",
+    "latitude": 31.731,
+    "longitude": 72.9834,
+    "market_type": "wholesale",
+    "primary_crops": [
+      "mango_chaunsa"
+    ],
+    "is_premium": false,
+    "cold_storage_available": false,
+    "_auto_discovered": true,
+    "_discovered_date": "2026-08-31",
+    "_note": "Auto-added by scraper from live AMIS data. Verify coordinates and enrich cold_storage_available / is_premium / primary_crops manually when convenient - safe to use for price/distance decisions as-is."
+  },
+  {
+    "market_id": "shorkot_mandi",
+    "market_name": "Shorkot Mandi",
+    "city": "Shorkot",
+    "province": "Punjab",
+    "latitude": 30.8349,
+    "longitude": 72.0764,
+    "market_type": "wholesale",
+    "primary_crops": [
+      "mango_chaunsa"
+    ],
+    "is_premium": false,
+    "cold_storage_available": false,
+    "_auto_discovered": true,
+    "_discovered_date": "2026-08-31",
+    "_note": "Auto-added by scraper from live AMIS data. Verify coordinates and enrich cold_storage_available / is_premium / primary_crops manually when convenient - safe to use for price/distance decisions as-is."
+  },
+  {
+    "market_id": "hafizabad_mandi",
+    "market_name": "Hafizabad Mandi",
+    "city": "Hafizabad",
+    "province": "Punjab",
+    "latitude": 32.0719,
+    "longitude": 73.6885,
+    "market_type": "wholesale",
+    "primary_crops": [
+      "mango_chaunsa"
+    ],
+    "is_premium": false,
+    "cold_storage_available": false,
+    "_auto_discovered": true,
+    "_discovered_date": "2026-08-31",
+    "_note": "Auto-added by scraper from live AMIS data. Verify coordinates and enrich cold_storage_available / is_premium / primary_crops manually when convenient - safe to use for price/distance decisions as-is."
+  },
+  {
+    "market_id": "hazro_mandi",
+    "market_name": "Hazro Mandi",
+    "city": "Hazro",
+    "province": "Punjab",
+    "latitude": 33.9098,
+    "longitude": 72.4887,
+    "market_type": "wholesale",
+    "primary_crops": [
+      "mango_chaunsa"
+    ],
+    "is_premium": false,
+    "cold_storage_available": false,
+    "_auto_discovered": true,
+    "_discovered_date": "2026-08-31",
+    "_note": "Auto-added by scraper from live AMIS data. Verify coordinates and enrich cold_storage_available / is_premium / primary_crops manually when convenient - safe to use for price/distance decisions as-is."
+  },
+  {
+    "market_id": "gujrat_mandi",
+    "market_name": "Gujrat Mandi",
+    "city": "Gujrat",
+    "province": "Punjab",
+    "latitude": 32.5628,
+    "longitude": 74.0645,
+    "market_type": "wholesale",
+    "primary_crops": [
+      "rice_basmati"
+    ],
+    "is_premium": false,
+    "cold_storage_available": false,
+    "_auto_discovered": true,
+    "_discovered_date": "2026-08-31",
+    "_note": "Auto-added by scraper from live AMIS data. Verify coordinates and enrich cold_storage_available / is_premium / primary_crops manually when convenient - safe to use for price/distance decisions as-is."
+  },
+  {
+    "market_id": "narowal_mandi",
+    "market_name": "Narowal Mandi",
+    "city": "Narowal",
+    "province": "Punjab",
+    "latitude": 32.101,
+    "longitude": 74.8722,
+    "market_type": "wholesale",
+    "primary_crops": [
+      "rice_basmati"
+    ],
+    "is_premium": false,
+    "cold_storage_available": false,
+    "_auto_discovered": true,
+    "_discovered_date": "2026-08-31",
+    "_note": "Auto-added by scraper from live AMIS data. Verify coordinates and enrich cold_storage_available / is_premium / primary_crops manually when convenient - safe to use for price/distance decisions as-is."
+  },
+  {
+    "market_id": "shakargarh_mandi",
+    "market_name": "Shakargarh Mandi",
+    "city": "Shakargarh",
+    "province": "Punjab",
+    "latitude": 32.2631,
+    "longitude": 75.1605,
+    "market_type": "wholesale",
+    "primary_crops": [
+      "rice_basmati"
+    ],
+    "is_premium": false,
+    "cold_storage_available": false,
+    "_auto_discovered": true,
+    "_discovered_date": "2026-08-31",
+    "_note": "Auto-added by scraper from live AMIS data. Verify coordinates and enrich cold_storage_available / is_premium / primary_crops manually when convenient - safe to use for price/distance decisions as-is."
+  },
+  {
+    "market_id": "rahimyarkhan_mandi",
+    "market_name": "RahimYarKhan Mandi",
+    "city": "RahimYarKhan",
+    "province": "Punjab",
+    "latitude": 28.4238,
+    "longitude": 70.2907,
+    "market_type": "wholesale",
+    "primary_crops": [
+      "tomato"
+    ],
+    "is_premium": false,
+    "cold_storage_available": false,
+    "_auto_discovered": true,
+    "_discovered_date": "2026-08-31",
+    "_note": "Auto-added by scraper from live AMIS data. Verify coordinates and enrich cold_storage_available / is_premium / primary_crops manually when convenient - safe to use for price/distance decisions as-is."
+  },
+  {
+    "market_id": "burewala_mandi",
+    "market_name": "Burewala Mandi",
+    "city": "Burewala",
+    "province": "Punjab",
+    "latitude": 30.1553,
+    "longitude": 72.6815,
+    "market_type": "wholesale",
+    "primary_crops": [
+      "tomato"
+    ],
+    "is_premium": false,
+    "cold_storage_available": false,
+    "_auto_discovered": true,
+    "_discovered_date": "2026-08-31",
+    "_note": "Auto-added by scraper from live AMIS data. Verify coordinates and enrich cold_storage_available / is_premium / primary_crops manually when convenient - safe to use for price/distance decisions as-is."
+  },
+  {
+    "market_id": "bahawalpur_mandi",
+    "market_name": "BahawalPur Mandi",
+    "city": "BahawalPur",
+    "province": "Punjab",
+    "latitude": 29.403,
+    "longitude": 71.6523,
+    "market_type": "wholesale",
+    "primary_crops": [
+      "tomato"
+    ],
+    "is_premium": false,
+    "cold_storage_available": false,
+    "_auto_discovered": true,
+    "_discovered_date": "2026-08-31",
+    "_note": "Auto-added by scraper from live AMIS data. Verify coordinates and enrich cold_storage_available / is_premium / primary_crops manually when convenient - safe to use for price/distance decisions as-is."
+  },
+  {
+    "market_id": "mailsi_mandi",
+    "market_name": "Mailsi Mandi",
+    "city": "Mailsi",
+    "province": "Punjab",
+    "latitude": 29.8073,
+    "longitude": 72.1769,
+    "market_type": "wholesale",
+    "primary_crops": [
+      "tomato"
+    ],
+    "is_premium": false,
+    "cold_storage_available": false,
+    "_auto_discovered": true,
+    "_discovered_date": "2026-08-31",
+    "_note": "Auto-added by scraper from live AMIS data. Verify coordinates and enrich cold_storage_available / is_premium / primary_crops manually when convenient - safe to use for price/distance decisions as-is."
+  },
+  {
+    "market_id": "chichawatni_mandi",
+    "market_name": "Chichawatni Mandi",
+    "city": "Chichawatni",
+    "province": "Punjab",
+    "latitude": 30.5355,
+    "longitude": 72.6903,
+    "market_type": "wholesale",
+    "primary_crops": [
+      "tomato"
+    ],
+    "is_premium": false,
+    "cold_storage_available": false,
+    "_auto_discovered": true,
+    "_discovered_date": "2026-08-31",
+    "_note": "Auto-added by scraper from live AMIS data. Verify coordinates and enrich cold_storage_available / is_premium / primary_crops manually when convenient - safe to use for price/distance decisions as-is."
+  },
+  {
+    "market_id": "daska_mandi",
+    "market_name": "Daska Mandi",
+    "city": "Daska",
+    "province": "Punjab",
+    "latitude": 32.3322,
+    "longitude": 74.3512,
+    "market_type": "wholesale",
+    "primary_crops": [
+      "tomato"
+    ],
+    "is_premium": false,
+    "cold_storage_available": false,
+    "_auto_discovered": true,
+    "_discovered_date": "2026-08-31",
+    "_note": "Auto-added by scraper from live AMIS data. Verify coordinates and enrich cold_storage_available / is_premium / primary_crops manually when convenient - safe to use for price/distance decisions as-is."
+  },
+  {
+    "market_id": "jahanian_mandi",
+    "market_name": "Jahanian Mandi",
+    "city": "Jahanian",
+    "province": "Punjab",
+    "latitude": 30.0423,
+    "longitude": 71.8128,
+    "market_type": "wholesale",
+    "primary_crops": [
+      "tomato"
+    ],
+    "is_premium": false,
+    "cold_storage_available": false,
+    "_auto_discovered": true,
+    "_discovered_date": "2026-08-31",
+    "_note": "Auto-added by scraper from live AMIS data. Verify coordinates and enrich cold_storage_available / is_premium / primary_crops manually when convenient - safe to use for price/distance decisions as-is."
+  },
+  {
+    "market_id": "jampur_mandi",
+    "market_name": "JamPur Mandi",
+    "city": "JamPur",
+    "province": "Punjab",
+    "latitude": 29.6384,
+    "longitude": 70.5772,
+    "market_type": "wholesale",
+    "primary_crops": [
+      "tomato"
+    ],
+    "is_premium": false,
+    "cold_storage_available": false,
+    "_auto_discovered": true,
+    "_discovered_date": "2026-08-31",
+    "_note": "Auto-added by scraper from live AMIS data. Verify coordinates and enrich cold_storage_available / is_premium / primary_crops manually when convenient - safe to use for price/distance decisions as-is."
+  },
+  {
+    "market_id": "chakwal_mandi",
+    "market_name": "Chakwal Mandi",
+    "city": "Chakwal",
+    "province": "Punjab",
+    "latitude": 32.9328,
+    "longitude": 72.863,
+    "market_type": "wholesale",
+    "primary_crops": [
+      "tomato"
+    ],
+    "is_premium": false,
+    "cold_storage_available": false,
+    "_auto_discovered": true,
+    "_discovered_date": "2026-08-31",
+    "_note": "Auto-added by scraper from live AMIS data. Verify coordinates and enrich cold_storage_available / is_premium / primary_crops manually when convenient - safe to use for price/distance decisions as-is."
+  },
+  {
+    "market_id": "rajanpur_mandi",
+    "market_name": "RajanPur Mandi",
+    "city": "RajanPur",
+    "province": "Punjab",
+    "latitude": 29.1003,
+    "longitude": 70.3379,
+    "market_type": "wholesale",
+    "primary_crops": [
+      "tomato"
+    ],
+    "is_premium": false,
+    "cold_storage_available": false,
+    "_auto_discovered": true,
+    "_discovered_date": "2026-08-31",
+    "_note": "Auto-added by scraper from live AMIS data. Verify coordinates and enrich cold_storage_available / is_premium / primary_crops manually when convenient - safe to use for price/distance decisions as-is."
+  },
+  {
+    "market_id": "sadiqabad_mandi",
+    "market_name": "SadiqAbad Mandi",
+    "city": "SadiqAbad",
+    "province": "Punjab",
+    "latitude": 28.3087,
+    "longitude": 70.1283,
+    "market_type": "wholesale",
+    "primary_crops": [
+      "tomato"
+    ],
+    "is_premium": false,
+    "cold_storage_available": false,
+    "_auto_discovered": true,
+    "_discovered_date": "2026-08-31",
+    "_note": "Auto-added by scraper from live AMIS data. Verify coordinates and enrich cold_storage_available / is_premium / primary_crops manually when convenient - safe to use for price/distance decisions as-is."
+  },
+  {
+    "market_id": "sheikhupura_mandi",
+    "market_name": "Sheikhupura Mandi",
+    "city": "Sheikhupura",
+    "province": "Punjab",
+    "latitude": 31.7085,
+    "longitude": 73.9864,
+    "market_type": "wholesale",
+    "primary_crops": [
+      "tomato"
+    ],
+    "is_premium": false,
+    "cold_storage_available": false,
+    "_auto_discovered": true,
+    "_discovered_date": "2026-08-31",
+    "_note": "Auto-added by scraper from live AMIS data. Verify coordinates and enrich cold_storage_available / is_premium / primary_crops manually when convenient - safe to use for price/distance decisions as-is."
+  },
+  {
+    "market_id": "kalurkot_mandi",
+    "market_name": "Kalurkot Mandi",
+    "city": "Kalurkot",
+    "province": "Punjab",
+    "latitude": 32.0848,
+    "longitude": 71.5773,
+    "market_type": "wholesale",
+    "primary_crops": [
+      "tomato"
+    ],
+    "is_premium": false,
+    "cold_storage_available": false,
+    "_auto_discovered": true,
+    "_discovered_date": "2026-08-31",
+    "_note": "Auto-added by scraper from live AMIS data. Verify coordinates and enrich cold_storage_available / is_premium / primary_crops manually when convenient - safe to use for price/distance decisions as-is."
+  },
+  {
+    "market_id": "basirpur_mandi",
+    "market_name": "Basirpur Mandi",
+    "city": "Basirpur",
+    "province": "Punjab",
+    "latitude": 30.5767,
+    "longitude": 73.8399,
+    "market_type": "wholesale",
+    "primary_crops": [
+      "tomato"
+    ],
+    "is_premium": false,
+    "cold_storage_available": false,
+    "_auto_discovered": true,
+    "_discovered_date": "2026-08-31",
+    "_note": "Auto-added by scraper from live AMIS data. Verify coordinates and enrich cold_storage_available / is_premium / primary_crops manually when convenient - safe to use for price/distance decisions as-is."
+  },
+  {
+    "market_id": "sambrial_mandi",
+    "market_name": "Sambrial Mandi",
+    "city": "Sambrial",
+    "province": "Punjab",
+    "latitude": 32.4756,
+    "longitude": 74.3529,
+    "market_type": "wholesale",
+    "primary_crops": [
+      "tomato"
+    ],
+    "is_premium": false,
+    "cold_storage_available": false,
+    "_auto_discovered": true,
+    "_discovered_date": "2026-08-31",
+    "_note": "Auto-added by scraper from live AMIS data. Verify coordinates and enrich cold_storage_available / is_premium / primary_crops manually when convenient - safe to use for price/distance decisions as-is."
+  },
+  {
+    "market_id": "kasur_mandi",
+    "market_name": "Kasur Mandi",
+    "city": "Kasur",
+    "province": "Punjab",
+    "latitude": 31.1175,
+    "longitude": 74.4478,
+    "market_type": "wholesale",
+    "primary_crops": [
+      "mango_chaunsa"
+    ],
+    "is_premium": false,
+    "cold_storage_available": false,
+    "_auto_discovered": true,
+    "_discovered_date": "2026-09-01",
+    "_note": "Auto-added by scraper from live AMIS data. Verify coordinates and enrich cold_storage_available / is_premium / primary_crops manually when convenient - safe to use for price/distance decisions as-is."
+  },
+  {
+    "market_id": "kabirwala_mandi",
+    "market_name": "KabirWala Mandi",
+    "city": "KabirWala",
+    "province": "Punjab",
+    "latitude": 30.4034,
+    "longitude": 71.8693,
+    "market_type": "wholesale",
+    "primary_crops": [
+      "mango_chaunsa"
+    ],
+    "is_premium": false,
+    "cold_storage_available": false,
+    "_auto_discovered": true,
+    "_discovered_date": "2026-09-01",
+    "_note": "Auto-added by scraper from live AMIS data. Verify coordinates and enrich cold_storage_available / is_premium / primary_crops manually when convenient - safe to use for price/distance decisions as-is."
+  },
+  {
+    "market_id": "abdulhakim_mandi",
+    "market_name": "Abdulhakim Mandi",
+    "city": "Abdulhakim",
+    "province": "Punjab",
+    "latitude": 30.5508,
+    "longitude": 72.1275,
+    "market_type": "wholesale",
+    "primary_crops": [
+      "mango_chaunsa"
+    ],
+    "is_premium": false,
+    "cold_storage_available": false,
+    "_auto_discovered": true,
+    "_discovered_date": "2026-09-01",
+    "_note": "Auto-added by scraper from live AMIS data. Verify coordinates and enrich cold_storage_available / is_premium / primary_crops manually when convenient - safe to use for price/distance decisions as-is."
+  },
+  {
+    "market_id": "bhalwal_mandi",
+    "market_name": "Bhalwal Mandi",
+    "city": "Bhalwal",
+    "province": "Punjab",
+    "latitude": 32.2711,
+    "longitude": 72.8966,
+    "market_type": "wholesale",
+    "primary_crops": [
+      "tomato"
+    ],
+    "is_premium": false,
+    "cold_storage_available": false,
+    "_auto_discovered": true,
+    "_discovered_date": "2026-09-01",
+    "_note": "Auto-added by scraper from live AMIS data. Verify coordinates and enrich cold_storage_available / is_premium / primary_crops manually when convenient - safe to use for price/distance decisions as-is."
+  },
+  {
+    "market_id": "jaranwala_mandi",
+    "market_name": "Jaranwala Mandi",
+    "city": "Jaranwala",
+    "province": "Punjab",
+    "latitude": 31.333,
+    "longitude": 73.4183,
+    "market_type": "wholesale",
+    "primary_crops": [
+      "tomato"
+    ],
+    "is_premium": false,
+    "cold_storage_available": false,
+    "_auto_discovered": true,
+    "_discovered_date": "2026-09-01",
+    "_note": "Auto-added by scraper from live AMIS data. Verify coordinates and enrich cold_storage_available / is_premium / primary_crops manually when convenient - safe to use for price/distance decisions as-is."
+  },
+  {
+    "market_id": "mianwali_mandi",
+    "market_name": "Mianwali Mandi",
+    "city": "Mianwali",
+    "province": "Punjab",
+    "latitude": 32.5794,
+    "longitude": 71.5353,
+    "market_type": "wholesale",
+    "primary_crops": [
+      "tomato"
+    ],
+    "is_premium": false,
+    "cold_storage_available": false,
+    "_auto_discovered": true,
+    "_discovered_date": "2026-09-01",
+    "_note": "Auto-added by scraper from live AMIS data. Verify coordinates and enrich cold_storage_available / is_premium / primary_crops manually when convenient - safe to use for price/distance decisions as-is."
+  },
+  {
+    "market_id": "khudian_mandi",
+    "market_name": "Khudian Mandi",
+    "city": "Khudian",
+    "province": "Punjab",
+    "latitude": 31.0883,
+    "longitude": 73.8138,
+    "market_type": "wholesale",
+    "primary_crops": [
+      "tomato"
+    ],
+    "is_premium": false,
+    "cold_storage_available": false,
+    "_auto_discovered": true,
+    "_discovered_date": "2026-09-01",
+    "_note": "Auto-added by scraper from live AMIS data. Verify coordinates and enrich cold_storage_available / is_premium / primary_crops manually when convenient - safe to use for price/distance decisions as-is."
+  },
+  {
+    "market_id": "pinanwal_mandi",
+    "market_name": "Pinanwal Mandi",
+    "city": "Pinanwal",
+    "province": "Punjab",
+    "latitude": 32.658,
+    "longitude": 73.2783,
+    "market_type": "wholesale",
+    "primary_crops": [
+      "tomato"
+    ],
+    "is_premium": false,
+    "cold_storage_available": false,
+    "_auto_discovered": true,
+    "_discovered_date": "2026-09-01",
+    "_note": "Auto-added by scraper from live AMIS data. Verify coordinates and enrich cold_storage_available / is_premium / primary_crops manually when convenient - safe to use for price/distance decisions as-is."
+  }
+]
